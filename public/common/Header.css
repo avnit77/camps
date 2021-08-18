@@ -1,0 +1,75 @@
+header {
+    height: 150px;
+    width: 100%;
+    background-image: url("../assets/forest1.jpg");
+    background-repeat: cover;
+    background-position: 70% 70%;
+}
+
+.header-contents {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+img.logo {
+    margin-top: 10px;
+    height: 100px;
+    color: white;
+    opacity: 0.7;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 36px;
+    font-family: 'Calistoga', cursive;
+    margin: 20px auto 0 auto;
+    flex-grow: 1;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+button.log-out {
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+    height: 55px;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+button.log-out:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+button.log-out:active {
+    background-color: white;
+}
+
+@media (min-width: 450px) {
+    header {
+        background-image: url("../assets/trail1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 56%;
+    }
+}
+
+@media (min-width: 780px) {
+    h1 {
+        font-size: 60px;
+      }
+
+    .header-contents {
+        margin: 0 18% 0 18%;
+    }
+}

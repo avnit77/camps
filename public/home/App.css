@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: rgb(233, 233, 233);
+}
+
+.mthood {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    max-width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(151, 151, 151);
+}
+
+form p {
+    margin: 10px 0;
+}
+
+main p.errors, .user-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.errors {
+    color: rgb(168, 0, 0);
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+}
+
+input {
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding-left: 15px;
+    height: 35px;
+    width: 200px;
+} 
+
+.no-display {
+    display: none;
+}
+
+
+@media (min-width: 450px) {
+    .nav {
+        margin-bottom: 60px;
+    }
+
+    .mthood {
+        margin-top: 90px;
+    }
+}

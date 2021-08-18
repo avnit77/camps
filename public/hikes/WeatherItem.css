@@ -1,0 +1,32 @@
+.weather-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 220px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    background: seashell;
+    line-height: 1.2em;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+sup{
+    vertical-align: text-bottom;
+    font-size: xx-small;
+}
+
+.weather-day {
+    text-align: center;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+.weather-summary {
+    text-align: center;
+    margin: 6px;
+}

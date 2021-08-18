@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    font-family: 'Calistoga', cursive;
+    font-weight: lighter;
+    width: 110%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0px;
+    left: -5%;
+    height: 50px;
+    font-size: 22px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px;
+    border-top: 2px solid white;
+    align-items: center;
+}
+
+@media (min-width: 450px) {
+    .nav {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        width: 100%;
+    }
+}
