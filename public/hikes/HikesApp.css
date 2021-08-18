@@ -1,0 +1,9 @@
+main {
+    padding: 10px;
+}
+
+@media (max-width: 450px) {
+    .footer {
+        display: none;
+    }
+}

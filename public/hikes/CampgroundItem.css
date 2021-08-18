@@ -1,0 +1,47 @@
+.campground-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 220px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    background: seagreen;
+    line-height: 1.2em;
+    align-items: center;
+    min-width: 250px;
+}
+
+.campground-name {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.campground-img {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.campground-website {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    background: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.campground-website:hover {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    background: bisque;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}

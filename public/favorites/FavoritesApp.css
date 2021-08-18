@@ -1,0 +1,19 @@
+form.search-form {
+    display: none;
+}
+
+.list-section {
+    margin-top: 60px;
+}
+
+@media (min-width: 450px) {
+    .nav {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer {
+        display: none;
+    }
+}
