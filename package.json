@@ -12,13 +12,6 @@
     "yarn": "1.22.5"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -29,11 +22,10 @@
     "superagent": "^5.1.0"
   },
   "scripts": {
-    "startreact": "react-scripts start",
+    "lint": "eslint .",
+    "test": "exit 0",
     "start": "node server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start:watch": "nodemon --ignore public server.js",
     "create-tables": "node data/create-tables.js",
     "drop-tables": "node data/drop-tables.js",
     "recreate-tables": "npm run drop-tables && npm run create-tables",
@@ -41,15 +33,14 @@
     "setup-db:prod": "heroku run npm run setup-db",
     "setup-heroku": "heroku addons:create heroku-postgresql:hobby-dev && heroku config:set PGSSLMODE=require"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avnit77/camps"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avnit77/camps/issues"
   },
   "browserslist": {
     "production": [
@@ -62,5 +53,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/avnit77/camps#readme"
 }
